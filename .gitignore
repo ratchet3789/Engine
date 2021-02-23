@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+[Ee]ngine/.vs/**
+[Ee]ngine/Debug/*
+[Ee]ngine/[Ee]ngine/Debug/*
