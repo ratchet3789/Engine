@@ -33,4 +33,18 @@
 
 [Ee]ngine/.vs/**
 [Ee]ngine/Debug/*
+[Ee]ngine/x64/*
+
 [Ee]ngine/[Ee]ngine/Debug/*
+[Ee]ngine/[Ee]ngine/Release/*
+[Ee]ngine/[Ee]ngine/x64/*
+
+[Ee]ngine/[Gg]ame/Debug/*
+[Ee]ngine/[Gg]ame/Release/*
+[Ee]ngine/[Gg]ame/x64/*
+
+
+
+*.pdb
+*.ipdb
+*.ilk
