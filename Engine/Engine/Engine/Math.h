@@ -3,6 +3,7 @@
 
 #include <iostream>
 
+//Todo: Look up templates
 template <typename T>
 class Vec2
 {

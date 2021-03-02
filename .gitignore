@@ -31,20 +31,22 @@
 *.out
 *.app
 
+# VS/Debug Files
 [Ee]ngine/.vs/**
 [Ee]ngine/Debug/*
 [Ee]ngine/x64/*
 
+# Engine Project Files
 [Ee]ngine/[Ee]ngine/Debug/*
 [Ee]ngine/[Ee]ngine/Release/*
 [Ee]ngine/[Ee]ngine/x64/*
 
+# Game Project Files
 [Ee]ngine/[Gg]ame/Debug/*
 [Ee]ngine/[Gg]ame/Release/*
 [Ee]ngine/[Gg]ame/x64/*
 
-
-
+# General Debug Data
 *.pdb
 *.ipdb
 *.ilk
