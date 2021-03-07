@@ -37,9 +37,10 @@
 [Ee]ngine/x64/*
 
 # Engine Project Files
-[Ee]ngine/[Ee]ngine/Debug/**
-[Ee]ngine/[Ee]ngine/Release/**
-[Ee]ngine/[Ee]ngine/x64/**
+[Ee]ngine/[Cc]ore/Debug/**
+[Ee]ngine/[Cc]ore/Release/**
+[Ee]ngine/[Cc]ore/x64/**
+[Ee]ngine/[Cc]ore/.vs/**
 
 # Game Project Files
 [Ee]ngine/[Gg]ame/Debug/*
