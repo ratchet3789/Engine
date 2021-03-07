@@ -37,9 +37,9 @@
 [Ee]ngine/x64/*
 
 # Engine Project Files
-[Ee]ngine/[Ee]ngine/Debug/*
-[Ee]ngine/[Ee]ngine/Release/*
-[Ee]ngine/[Ee]ngine/x64/*
+[Ee]ngine/[Ee]ngine/Debug/**
+[Ee]ngine/[Ee]ngine/Release/**
+[Ee]ngine/[Ee]ngine/x64/**
 
 # Game Project Files
 [Ee]ngine/[Gg]ame/Debug/*
@@ -50,3 +50,8 @@
 *.pdb
 *.ipdb
 *.ilk
+*.exe.recipe
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
