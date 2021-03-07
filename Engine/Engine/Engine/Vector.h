@@ -1,6 +1,5 @@
 #pragma once
 #include <math.h>
-
 #include <iostream>
 
 //Todo: Look up templates
@@ -19,6 +18,8 @@ public:
 
 	inline Vec2 GetNormalized() const { return Vec2(X / Magnitude(), Y / Magnitude()); }
 	inline void Normalize() { X /= Magnitude(); Y /= Magnitude(); };
+
+	Vec2 operator+(const Vec2 b) { return new Vec2(X + b.X, Y + b.Y); }
 
 	T X, Y;
 };

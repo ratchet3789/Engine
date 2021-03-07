@@ -20,9 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Engine\Engine.cpp" />
+    <ClCompile Include="Engine\Entity.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Engine\Math.h" />
+    <ClInclude Include="Engine\Test.h" />
+    <ClInclude Include="Engine\Vector.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
