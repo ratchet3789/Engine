@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "Math.h"
+#include "Vector.h"
 
 //Game Loop
 int main()
