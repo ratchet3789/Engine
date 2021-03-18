@@ -9,6 +9,5 @@ int main()
 
 	while (loop)
 	{
-		//Check for inputs
 	}
 }
