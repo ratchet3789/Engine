@@ -25,7 +25,8 @@ public:
 	void Insert(const T& value, int location)
 	{
 		size_t bufferPosition = elementSize * location;
-		memcpy(memory, &value, elementSize);
+		T* memoryStart = (T*)memory;
+		memcpy(memoryStart + bufferPosition, &value, elementSize);
 		count++;
 	}
 };

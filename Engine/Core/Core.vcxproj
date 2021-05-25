@@ -23,6 +23,7 @@
     <ClCompile Include="Source\Entity.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\Buffer.h" />
     <ClInclude Include="Source\Test.h" />
     <ClInclude Include="Source\Vector.h" />
   </ItemGroup>
